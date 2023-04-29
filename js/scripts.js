@@ -1,6 +1,11 @@
 function pressing() {
     var InputValue = document.getElementById('email').value;
-    alert(InputValue);
+    if (InputValue === null) {
+        alert('Значение равно null');
+      }
+    else{
+        alert("Данные отправлены " + InputValue);
+    }
 }
 
 function alerted(){
