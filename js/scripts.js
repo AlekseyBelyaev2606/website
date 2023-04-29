@@ -1,4 +1,4 @@
-function onClick() {
+function pressing() {
     var InputValue = document.getElementById('email').value;
     alert(InputValue);
 }
